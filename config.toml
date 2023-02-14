@@ -1,0 +1,13 @@
+baseURL = 'https://pawsey-internships.github.io/more_with_bash'
+languageCode = 'en-us'
+title = 'Doing More with BASH'
+theme = "learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+disableBreadcrumb = false
+disableNextPrev = false
+themeVariant = "pawsey"
+disableLandingPageButton = true

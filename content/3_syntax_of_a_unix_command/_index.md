@@ -1,0 +1,26 @@
++++
+title = "Syntax of a Unix Command"
+date = 2023-02-14
+weight = 3
+chapter = true
+pre = "<b>3. </b>"
++++
+## 3. Syntax of a Unix Command
+
+**Command-line utilities** on **Unix-like** operating systems follow the syntax:
+
+> *verb* *adverb(s)* *object(s)*
+
+Or, equivalently:
+
+> [COMMAND] [OPTION(s)] [FILES(s)]
+
+For example:
+
+	ls -A ~/
+
+Where `ls` (list files) is the verb, `-A` (list everything but `.` and `..`) is the adverb and `~/` (the user home directory) is the object. 
+
+**Command line utilities** (or just commands) are a small programs designed for use in a command-line **shell**. When executed, they read input data from the **stdin** (standard in) **data stream** and returns an output the **stdout** (standard output) **data stream**. This predictable behaviour allows for the output of one command to be **piped** to the input of another.
+
+
