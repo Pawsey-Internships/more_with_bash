@@ -1,26 +1,6 @@
 # Doing more with the (B)ourne (A)gain (SH)ell.
 ### (An intermediate Unix workshop.)
 
-### Contents
-1.  Unix-like Operating Systems
-2.  Shells
-3.  Syntax of a Unix Command 
-4.  Data Streams
-5.  Defining the `del` Command
-6.  Scripts and Script Arguments
-7.  Functions
-8.  If Statements
-9.  Subshells
-10. Regular Expressions
-11. For Loops
-12. Arrays
-13. Case Statements
-14.	Parsing Delimited Text Files with `awk`
-15.	Our Implementation of `del`
-16.	Dotfiles
-17. Aliases
-18. Process Management
-
 ## 1. Unix-like Operating Systems
 
 A Unix like operating system is an operating system that behaves more-or-less like the Unix operating system. The first version of Unix was developed between 1969-71 at Bell Labs. It was one of the first operating systems to support multitasking and the first portable operating system written in C instead of processor dependant machine language.
@@ -52,7 +32,7 @@ Shells can be graphical (e.g. the Windows desktop environment) or command-line b
 
 The most common shell is the Borne Again Shell (BASH) - it is the default for most Linux distributions. Another common shell is the Z shell (zsh) - which extends the features of BASH. It is the default shell on current versions of macOS.
 
-### 3. Syntax of a Unix Command
+## 3. Syntax of a Unix Command
 
 **Command-line utilities** on **Unix-like** operating systems follow the syntax:
 
@@ -136,7 +116,7 @@ To discard the output of a datastream we can redirect it to`\dev\null`, which di
 
 It's possible to open addition file descriptors, but stdin, stdout and stderr are usually sufficiant.
 
-## 1.4. Why BASH?
+## 5. Why BASH?
 
 BASH is a scripting language. Scripting languages are programming languages that manipulate or automate exisitng systems. For BASH this is the Unix file system, the input and output of command line utilities and  **environment variables** that  control the behaviours of software.
 
@@ -144,7 +124,7 @@ Python is a high-level programming language that can be used as a scripting lang
 
 > As a rule-of-thumb, BASH is a good choice for 'set and forget' scripts with fewer than 100 lines. 
 
-## 2. Defining the `del` command.
+## 6. Defining the `del` command.
 
 The remove command, 
 
@@ -160,7 +140,7 @@ In portion of the workshop, we'll develop a user-defined `del` command that:
 
 Where `-l` and `-u` are options and `N` is an integer value.
 
-## 6. BASH Scripts and BASH Script Arguments
+## 7. BASH Scripts and BASH Script Arguments
 
 A BASH script is a text file containing lines of BASH compatible commands. These scripts start with a *shebang* and the path to the BASH interpreter:
 
@@ -187,7 +167,7 @@ Example 1: Parsing arguments.
 
 ___
 
-## 7. BASH Functions
+## 8. BASH Functions
 
 BASH functions allow the same piece of BASH code to be reused multiple times in a terminal session or script.
 
@@ -228,7 +208,7 @@ To use a bash function outside of the bash script itself, **source** (read and e
 
 	. ./recycle_bin/recyle_bin.sh
 
-## 8. If Statements
+## 9. If Statements
 
 If statements allow us to write BASH scripts with conditional behaviour.
 
@@ -286,7 +266,7 @@ Example 3: Create the '.recycle_bin' directory if it doesn't exist.
 	fi
 ___
 
-## 9. Subshells
+## 10. Subshells
 
 In Example 3, the command `$(cd $(dirname ${BASH_SOURCE[0]});pwd)` carries out the following steps.
 
@@ -304,7 +284,7 @@ Finally,
 
 returns the absolute path to the folder that contains the script to the originating (parent) shell.
 
-## 10. Regular Expressions
+## 11. Regular Expressions
 
 Regular expressions are sequences of characters that specify a search pattern. For example, `*.dat` refers to any file ending in `.dat` and `?.dat` to any file ending with `.dat` with a prefix that is zero or more characters long.
 
@@ -332,7 +312,7 @@ Example 4: Pattern matching to identify option flags (e.g. -l and -u).
 
 ___
 
-## 11. For Loops
+## 12. For Loops
 
 A BASH for loop applies the same sequence of operations multiple times while iterating through a sequence.
 
@@ -388,7 +368,7 @@ Example 5: Classifying input arguments.
 
 ___
 
-## 12. Arrays
+## 13. Arrays
 
 BASH arrays are a sequence of indexable strings separated.
 
@@ -430,7 +410,7 @@ Example 6: Classify arguments as options and files. Append the corresponding mat
 	done
 ___
 
-## 13. Case Statements
+## 14. Case Statements
 
 Case statements are another way of implementing logical branching. They are easier to write and read in many instances than a long sequence of 'if' and 'elif' statements.
 
@@ -487,7 +467,7 @@ Example 7: A case statement defining option-dependant behaviour in 'del.
 ___
 
 
-## 14. Parsing Delimited Text Files with 'awk'.
+## 15. Parsing Delimited Text Files with 'awk'.
 
 Sections 3 to 9 defined the main control structures needed to implement `del`. However, we need a means of tracking the 'recycled' files and their original location. To achieve this, we will use a log file in the `.recycle_bin` directory called `.recycle_log` that will store the file size, file path in `.recycle_bin` and the original file path in a single line for each recycled file.
 
@@ -532,7 +512,7 @@ Example 9: Sum the first column (file size) of the `del` log file.
 
 ___
 
-## 15. Our Implementation of `del`
+## 16. Our Implementation of `del`
 
 ___
 
@@ -664,7 +644,7 @@ Example 10: An implementation of 'del'.
 	
 	echo "Defined the 'del' command, use 'del --help' for info on its usage."
 
-## 16. Dotfiles
+## 17. Dotfiles
 
 The behaviour of a Unix system is controlled through the setting of environment variables. For instance, we have already encountered the HOME variable, which contains the path to the current user's home directory:
 
@@ -706,7 +686,7 @@ To have `del` avaliable whenever we start a terminal session we can append,
 
 to `.bashrc`.
 
-## 17. Aliases
+## 18. Aliases
 
 Aliases are user-defined commands built out of a sequence of terminal commands; with them, we can define 'shortcuts' to longer commands.
 
@@ -724,7 +704,7 @@ Aliases are a great way of making your system more comfortable to use. Modificat
 
 Be sure to do so with care, though. Comment on any changes, and add new commands to the bottom of the file wherever possible. Even better is to store your custom environment variables in a file that is 'sourced' by .bashrc.
 
-## 18. Process Management
+## 19. Process Management
 
 Unix-like operating systems are multitasking - something that we experience if using the desktop environment of macOS or a Linux distribution.
 
