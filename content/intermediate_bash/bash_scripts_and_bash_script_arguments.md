@@ -3,7 +3,7 @@ title = "BASH Scripts and BASH Script Arguments"
 date = 2023-02-14
 weight = 7
 chapter = true
-pre = "<b>7. </b>"
+pre = "<b>2.1 </b>"
 +++
 ## 7. BASH Scripts and BASH Script Arguments
 

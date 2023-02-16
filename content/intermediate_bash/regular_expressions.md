@@ -3,7 +3,7 @@ title = "Regular Expressions"
 date = 2023-02-14
 weight = 11
 chapter = true
-pre = "<b>11. </b>"
+pre = "<b>2.5 </b>"
 +++
 ## 11. Regular Expressions
 

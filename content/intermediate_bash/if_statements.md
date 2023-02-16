@@ -3,7 +3,7 @@ title = "If Statements"
 date = 2023-02-14
 weight = 9
 chapter = true
-pre = "<b>9. </b>"
+pre = "<b>2.3 </b>"
 +++
 ## 9. If Statements
 

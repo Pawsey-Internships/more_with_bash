@@ -3,7 +3,7 @@ title = "Arrays"
 date = 2023-02-14
 weight = 13
 chapter = true
-pre = "<b>13. </b>"
+pre = "<b>2.7 </b>"
 +++
 ## 13. Arrays
 

@@ -1,9 +1,9 @@
 +++
-title = "Unix-like Operating Systems"
+title = "Unix-like OS"
 date = 2023-02-14
 weight = 1
-chapter = true
-pre = "<b>1. </b>"
+chapter = false
+pre = "<b>1.1 </b>"
 +++
 ## 1. Unix-like Operating Systems
 

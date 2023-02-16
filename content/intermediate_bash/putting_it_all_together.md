@@ -1,9 +1,9 @@
 +++
-title = "Our Implementation of `del`"
+title = "Putting It All Together"
 date = 2023-02-14
 weight = 16
 chapter = true
-pre = "<b>16. </b>"
+pre = "<b>2.10 </b>"
 +++
 ## 16. Our Implementation of `del`
 

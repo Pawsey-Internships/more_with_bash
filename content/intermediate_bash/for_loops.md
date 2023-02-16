@@ -3,7 +3,7 @@ title = "For Loops"
 date = 2023-02-14
 weight = 12
 chapter = true
-pre = "<b>12. </b>"
+pre = "<b>2.6 </b>"
 +++
 ## 12. For Loops
 

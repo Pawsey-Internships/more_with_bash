@@ -3,7 +3,7 @@ title = "BASH Functions"
 date = 2023-02-14
 weight = 8
 chapter = true
-pre = "<b>8. </b>"
+pre = "<b>2.2 </b>"
 +++
 ## 8. BASH Functions
 

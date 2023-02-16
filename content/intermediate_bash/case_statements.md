@@ -3,7 +3,7 @@ title = "Case Statements"
 date = 2023-02-14
 weight = 14
 chapter = true
-pre = "<b>14. </b>"
+pre = "<b>2.8 </b>"
 +++
 ## 14. Case Statements
 

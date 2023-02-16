@@ -1,9 +1,9 @@
 +++
-title = "Defining the `del` command."
+title = "The Workshop Framing Device"
 date = 2023-02-14
 weight = 6
 chapter = true
-pre = "<b>6. </b>"
+pre = "<b>2. </b>"
 +++
 ## 6. Defining the `del` command.
 

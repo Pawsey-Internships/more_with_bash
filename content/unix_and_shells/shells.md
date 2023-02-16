@@ -3,7 +3,7 @@ title = "Shells"
 date = 2023-02-14
 weight = 2
 chapter = true
-pre = "<b>2. </b>"
+pre = "<b>1.2 </b>"
 +++
 ## 2. Shells
 
