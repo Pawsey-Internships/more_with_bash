@@ -2,7 +2,7 @@
 title = "Command Syntax"
 date = 2023-02-14
 weight = 3
-pre = "<b>1.3 </b>"
+pre = "<b>1.3. </b>"
 +++
 
 **Command-line utilities** on **Unix-like** operating systems follow the syntax:

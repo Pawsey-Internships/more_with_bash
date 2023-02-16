@@ -1,11 +1,9 @@
 +++
 title = "If Statements"
 date = 2023-02-14
-weight = 9
-chapter = true
-pre = "<b>2.3 </b>"
+weight = 4
+pre = "<b>2.4. </b>"
 +++
-## 9. If Statements
 
 If statements allow us to write BASH scripts with conditional behaviour.
 

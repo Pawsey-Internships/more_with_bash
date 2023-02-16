@@ -1,11 +1,9 @@
 +++
 title = "For Loops"
 date = 2023-02-14
-weight = 12
-chapter = true
-pre = "<b>2.6 </b>"
+weight = 7
+pre = "<b>2.7. </b>"
 +++
-## 12. For Loops
 
 A BASH for loop applies the same sequence of operations multiple times while iterating through a sequence.
 

@@ -2,7 +2,7 @@
 title = "Shells"
 date = 2023-02-14
 weight = 2
-pre = "<b>1.2 </b>"
+pre = "<b>1.2. </b>"
 +++
 
 A shell is a program that provides a user interface to the services of an operating system. Beneath the shell is the operating system kernel - which acts as a bridge of the between the software installed on the computer and its hardware.

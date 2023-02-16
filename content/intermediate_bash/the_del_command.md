@@ -1,11 +1,9 @@
 +++
-title = "The Workshop Framing Device"
+title = "A New Unix Command"
 date = 2023-02-14
-weight = 6
-chapter = true
-pre = "<b>2. </b>"
+weight = 1 
+pre = "<b>2.1. </b>"
 +++
-## 6. Defining the `del` command.
 
 The remove command, 
 

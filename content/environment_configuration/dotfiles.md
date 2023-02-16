@@ -3,9 +3,8 @@ title = "Dotfiles"
 date = 2023-02-14
 weight = 17
 chapter = true
-pre = "<b>17. </b>"
+pre = "<b>3.1. </b>"
 +++
-## 17. Dotfiles
 
 The behaviour of a Unix system is controlled through the setting of environment variables. For instance, we have already encountered the HOME variable, which contains the path to the current user's home directory:
 

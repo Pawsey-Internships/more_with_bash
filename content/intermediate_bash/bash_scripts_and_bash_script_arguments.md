@@ -1,11 +1,9 @@
 +++
 title = "BASH Scripts and BASH Script Arguments"
 date = 2023-02-14
-weight = 7
-chapter = true
-pre = "<b>2.1 </b>"
+weight = 2
+pre = "<b>2.2. </b>"
 +++
-## 7. BASH Scripts and BASH Script Arguments
 
 A BASH script is a text file containing lines of BASH compatible commands. These scripts start with a *shebang* and the path to the BASH interpreter:
 

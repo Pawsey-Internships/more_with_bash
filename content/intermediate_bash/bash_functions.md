@@ -1,11 +1,9 @@
 +++
 title = "BASH Functions"
 date = 2023-02-14
-weight = 8
-chapter = true
-pre = "<b>2.2 </b>"
+weight = 3
+pre = "<b>2.3. </b>"
 +++
-## 8. BASH Functions
 
 BASH functions allow the same piece of BASH code to be reused multiple times in a terminal session or script.
 

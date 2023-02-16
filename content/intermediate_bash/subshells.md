@@ -1,11 +1,9 @@
 +++
 title = "Subshells"
 date = 2023-02-14
-weight = 10
-chapter = true
-pre = "<b>2.4 </b>"
+weight = 5
+pre = "<b>2.5. </b>"
 +++
-## 10. Subshells
 
 In Example 3, the command `$(cd $(dirname ${BASH_SOURCE[0]});pwd)` carries out the following steps.
 

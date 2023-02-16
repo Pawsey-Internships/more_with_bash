@@ -3,9 +3,8 @@ title = "Aliases"
 date = 2023-02-14
 weight = 18
 chapter = true
-pre = "<b>18. </b>"
+pre = "<b>3.2. </b>"
 +++
-## 18. Aliases
 
 Aliases are user-defined commands built out of a sequence of terminal commands; with them, we can define 'shortcuts' to longer commands.
 

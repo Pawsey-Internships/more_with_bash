@@ -2,7 +2,7 @@
 title = "Data Streams"
 date = 2023-02-14
 weight = 4
-pre = "<b>1.4 </b>"
+pre = "<b>1.4. </b>"
 +++
 
 A data streams transfer data (usually text) from a source (file, device or program) to an outflow in another.

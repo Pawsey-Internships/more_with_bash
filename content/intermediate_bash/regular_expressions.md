@@ -1,11 +1,9 @@
 +++
 title = "Regular Expressions"
 date = 2023-02-14
-weight = 11
-chapter = true
-pre = "<b>2.5 </b>"
+weight = 6
+pre = "<b>2.6. </b>"
 +++
-## 11. Regular Expressions
 
 Regular expressions are sequences of characters that specify a search pattern. For example, `*.dat` refers to any file ending in `.dat` and `?.dat` to any file ending with `.dat` with a prefix that is zero or more characters long.
 

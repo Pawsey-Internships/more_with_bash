@@ -1,11 +1,9 @@
 +++
 title = "Parsing Delimited Text Files with 'awk'."
 date = 2023-02-14
-weight = 15
-chapter = true
-pre = "<b>2.9 </b>"
+weight = 10
+pre = "<b>2.10. </b>"
 +++
-## 15. Parsing Delimited Text Files with 'awk'.
 
 Sections 3 to 9 defined the main control structures needed to implement `del`. However, we need a means of tracking the 'recycled' files and their original location. To achieve this, we will use a log file in the `.recycle_bin` directory called `.recycle_log` that will store the file size, file path in `.recycle_bin` and the original file path in a single line for each recycled file.
 

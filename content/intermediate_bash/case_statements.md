@@ -1,11 +1,9 @@
 +++
 title = "Case Statements"
 date = 2023-02-14
-weight = 14
-chapter = true
-pre = "<b>2.8 </b>"
+weight = 9
+pre = "<b>2.9. </b>"
 +++
-## 14. Case Statements
 
 Case statements are another way of implementing logical branching. They are easier to write and read in many instances than a long sequence of 'if' and 'elif' statements.
 

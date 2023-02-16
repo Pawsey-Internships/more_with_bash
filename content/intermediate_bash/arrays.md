@@ -1,11 +1,9 @@
 +++
 title = "Arrays"
 date = 2023-02-14
-weight = 13
-chapter = true
-pre = "<b>2.7 </b>"
+weight = 8
+pre = "<b>2.8. </b>"
 +++
-## 13. Arrays
 
 BASH arrays are a sequence of indexable strings separated.
 
