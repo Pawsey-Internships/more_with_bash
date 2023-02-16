@@ -2,10 +2,8 @@
 title = "Command Syntax"
 date = 2023-02-14
 weight = 3
-chapter = true
 pre = "<b>1.3 </b>"
 +++
-## 3. Syntax of a Unix Command
 
 **Command-line utilities** on **Unix-like** operating systems follow the syntax:
 

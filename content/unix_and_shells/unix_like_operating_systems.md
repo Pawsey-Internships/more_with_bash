@@ -1,11 +1,9 @@
 +++
-title = "Unix-like OS"
+title = "Unix-like Operating Systems"
 date = 2023-02-14
 weight = 1
-chapter = false
 pre = "<b>1.1 </b>"
 +++
-## 1. Unix-like Operating Systems
 
 A Unix like operating system is an operating system that behaves more-or-less like the Unix operating system. The first version of Unix was developed between 1969-71 at Bell Labs. It was one of the first operating systems to support multitasking and the first portable operating system written in C instead of processor dependant machine language.
 

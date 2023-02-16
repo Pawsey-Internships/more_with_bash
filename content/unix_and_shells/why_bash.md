@@ -2,10 +2,8 @@
 title = "Why BASH?"
 date = 2023-02-14
 weight = 5
-chapter = true
 pre = "<b>1.5 </b>"
 +++
-## 5. Why BASH?
 
 BASH is a scripting language. Scripting languages are programming languages that manipulate or automate exisitng systems. For BASH this is the Unix file system, the input and output of command line utilities and  **environment variables** that  control the behaviours of software.
 

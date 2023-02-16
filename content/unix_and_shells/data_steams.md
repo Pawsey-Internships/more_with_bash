@@ -2,10 +2,8 @@
 title = "Data Streams"
 date = 2023-02-14
 weight = 4
-chapter = true
 pre = "<b>1.4 </b>"
 +++
-## 4. Data Streams
 
 A data streams transfer data (usually text) from a source (file, device or program) to an outflow in another.
 
