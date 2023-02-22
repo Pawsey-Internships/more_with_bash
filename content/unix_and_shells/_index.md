@@ -8,4 +8,10 @@ pre = "<b>1. </b>"
 ### Chapter 1
 # Unix and Shells
 
-This will be an overview description of the chapter including a summary of the concepts it covers.
+#### Topics
+* What **Unix-like** operating systems have in common.
+* Some of the advantages of **Unix-like** operating systems.
+* **Shells** and the **Bourne Agian Shell** (BASH).
+* Working with **command-line utilities** (CLIs).
+* Controlling the follow of data with **data streams**.
+* When to use **BASH**.

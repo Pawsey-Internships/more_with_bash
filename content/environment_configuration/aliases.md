@@ -2,7 +2,7 @@
 title = "Aliases"
 date = 2023-02-14
 weight = 18
-chapter = true
+chapter = false
 pre = "<b>3.2. </b>"
 +++
 

@@ -10,6 +10,7 @@
 	--peachy: #ed8f7b;
 	--dusty_blue: #7ba6ad;
 	--sun_yellow: #fdc46f;
+	--touch_of_sun: #f7eedf;
 }
 
 :root{
@@ -155,4 +156,11 @@ a:hover {
 
 #homelinks a:hover {
   color: var(--MENU-HOME-LINK-HOVERED-color);
+}
+div.notices.highlight p {
+    border-top: 0px solid #F0B37E;
+    background: var(--touch_of_sun);
+}
+div.notices.highlight p:first-child:after {
+    background: var(--silver);
 }

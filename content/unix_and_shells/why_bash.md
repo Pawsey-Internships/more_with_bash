@@ -9,5 +9,7 @@ BASH is a scripting language. Scripting languages are programming languages that
 
 Python is a high-level programming language that can be used as a scripting language. However, for operation on files, BASH is often faster and requires fewer lines of code. For more complex tasks, Python is a better choice as it is more flexible and easier to maintain.
 
-> As a rule-of-thumb, BASH is a good choice for 'set and forget' scripts with fewer than 100 lines. 
+{{% notice tip %}}
+As a rule-of-thumb, BASH is a good choice for 'set and forget' scripts with fewer than 100 lines. 
+{{% /notice %}}
 

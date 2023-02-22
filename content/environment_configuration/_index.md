@@ -8,3 +8,7 @@ pre = "<b>3. </b>"
 
 ### Chapter 3
 # Environment Configuration
+
+###
+* Configure the behaviour of your shell and CLI programs with **dotfiles**.
+* Use **aliases** to modify or and create new commands.
